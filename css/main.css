@@ -1,10 +1,10 @@
 /* regole generali */
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-} */
+}
 
 .clearfix::after{
   clear: both;
@@ -13,7 +13,7 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 35%;
   height: auto;
 }
 .background-sez3{
@@ -37,11 +37,11 @@ section, footer{
 }
 /* regole di debug */
 [class*="col-"] {
-  min-height: 100px;
+  min-height: 60px;
   /* background-color: lightgreen; */
   border: solid 1px  #000;
-  index: 100;
-  padding: 2px;
+  /* index: 100; */
+  /* padding: 2px; */
 }
 
 /* .row .col-6 div  */
@@ -51,6 +51,44 @@ section, footer{
 }
 
 /* PROPRIETà CORPO PAGINA */
+/* proprietà nav */
+#nav-md {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 900;
+}
+#jumbo{
+  margin-top: 60px;
+}
+.title-nav{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.navigatorbar{
+  padding-left:50%;
+}
+ul#menu_box li {
+  display: block;
+  line-height: 60px;
+  padding: 0 15px ;
+  float: left;
+    }
+ul#menu_box li a {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* proprietà jumbotron */
+.jumbotron{
+  text-align: center;
+  padding: 5px 2%;
+}
 /* PROPRIETA RESPONSIVE */
 
 /* XS SCREEN */
