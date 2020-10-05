@@ -1,0 +1,57 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+header{
+  background-color: #42FFC7;
+}
+.backgroundnav{
+  background-color: blue;
+}
+.resizepage{
+  padding: 0 15%;
+}
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: lightgreen;
+  border: solid 1px  #000;
+  index: 100;
+  padding: 2px;
+}
+
+/* .row .col-6 div  */
+[class*="col-"] > .row > [class*="col-"]{
+  background-color: salmon;
+  border-color: #fff;
+}
+
+/* PROPRIETà CORPO PAGINA */
+/* PROPRIETA RESPONSIVE */
+
+/* XS SCREEN */
+@media screen and (max-width: 768px) {
+  .resizepage{
+    padding: 0 0;
+  }
+}
+/* MD SCREEN */
+@media screen and (max-width: 1170px) {
+  .resizepage{
+    padding: 0 2%;
+  }
+}
