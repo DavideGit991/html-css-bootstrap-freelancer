@@ -16,8 +16,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-header{
+.background-sez3{
   background-color: #42FFC7;
+}
+section{
+  margin-top: 25px;
 }
 .backgroundnav{
   background-color: blue;
