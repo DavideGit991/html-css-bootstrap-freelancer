@@ -19,19 +19,26 @@ img {
 .background-sez3{
   background-color: #42FFC7;
 }
-section{
+.background-footer{
+  background-color: blue;
+}
+.background-bottom-footer{
+  background-color: darkblue;
+}
+section, footer{
   margin-top: 25px;
 }
+
 .backgroundnav{
   background-color: blue;
 }
 .resizepage{
-  padding: 0 15%;
+  padding: 0 10%;
 }
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   border: solid 1px  #000;
   index: 100;
   padding: 2px;
