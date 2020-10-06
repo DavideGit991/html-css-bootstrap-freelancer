@@ -39,7 +39,7 @@ hr{
   border: solid 1px #fff;
 }
 img {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
 }
 .background-sez3, .jumbotron{
@@ -54,12 +54,15 @@ img {
 section, footer{
   margin-top: 25px;
 }
-
-.backgroundnav{
-  background-color: blue;
-}
 .resizepage{
   padding: 0 10%;
+}
+.fixed{
+  width: 100vw;
+  position: fixed;
+  stop: 0;
+  left: 0;
+  z-index: 900;
 }
 /* regole di debug */
 [class*="col-"] {
@@ -77,40 +80,20 @@ section, footer{
 }
 
 /* PROPRIETà CORPO PAGINA */
+
 /* proprietà nav */
-#nav-md {
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 60px;
-  width: 100%;
-  z-index: 900;
+#nav-color{
+  background-color: #2c3e50;
 }
+
+/* proprietà jumbotron */
 #jumbo{
   margin-top: 60px;
 }
-.title-nav{
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
+#jumboimg{
+  width: 40%;
+  height: auto;
 }
-.navigatorbar{
-  padding-left:50%;
-}
-ul#menu_box li {
-  display: block;
-  line-height: 60px;
-  padding: 0 5px ;
-  float: left;
-    }
-ul#menu_box li a {
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  text-decoration: none;
-}
-/* proprietà jumbotron */
 .jumbotron{
   text-align: center;
   padding: 5px 2%;
@@ -139,7 +122,7 @@ ul#menu_box li a {
   height: auto; */
   margin:  10px 10px ;
   padding-right: 5%;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   text-align: center;
   border-radius: 5px;
 
