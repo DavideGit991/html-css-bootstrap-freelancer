@@ -11,7 +11,33 @@
   display: table;
   content: "";
 }
-
+.inline{
+  display: inline-block;
+}
+hr{
+  width: 20%;
+  /* border: solid 1px #000; */
+}
+.hr-resize{
+  text-align: center;
+  padding: 0 auto;
+}
+.hr-black{
+  margin: 0 auto;
+  background-color: blue;
+  border: solid 1px blue;
+}
+#blue{
+  color: blue;
+}
+#white{
+  color: white;
+}
+.hr-white{
+  margin: 0 auto;
+  background-color: #fff;
+  border: solid 1px #fff;
+}
 img {
   max-width: 40%;
   height: auto;
@@ -39,7 +65,7 @@ section, footer{
 [class*="col-"] {
   min-height: 60px;
   /* background-color: lightgreen; */
-  border: solid 1px  #000;
+  /* border: solid 1px  #000; */
   /* index: 100; */
   /* padding: 2px; */
 }
@@ -75,7 +101,7 @@ section, footer{
 ul#menu_box li {
   display: block;
   line-height: 60px;
-  padding: 0 10px ;
+  padding: 0 5px ;
   float: left;
     }
 ul#menu_box li a {
@@ -98,7 +124,8 @@ ul#menu_box li a {
 
 /* proprietà sezione 1 */
 .sez1-title{
-  color: WHITE;
+  /* color: WHITE; */
+  padding: 0 auto;
   font-weight: bold;
   text-align: center;
 }
@@ -133,11 +160,25 @@ ul#menu_box li a {
 }
 #download{
   color:white;
-  margin-right: 8%;
+  margin-right:5%;
 }
 #button-write{
   color: white;
   font-weight: bold;
+}
+
+/* proprietà sezione 3 */
+.dati-cliente{
+  margin: 15px auto;
+}
+#button-send{
+  border-color: WHITE;
+  color: white;
+  background-color: #42FFC7
+}
+.send-box{
+  border-top: solid blue 1px ;
+  padding-top: 5px;
 }
 
 /* PROPRIETA RESPONSIVE */

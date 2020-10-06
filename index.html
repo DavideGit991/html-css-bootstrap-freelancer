@@ -51,8 +51,10 @@
 							<div class="jumbo-title">
 								<h3>START BOOTSTRAP</h3>
 							</div>
-							<div class="hr-white">
-									<!-- INSERIRE LA HR WHITE ---------------->
+							<div class="hr-resize">
+								<hr class="hr-white inline">
+								<div id="white"class="glyphicon glyphicon-star inline"></div>
+								<hr class="hr-white inline">
 							</div>
 							<div class="jumbo-subtitle">
 								<h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
@@ -71,11 +73,12 @@
 							<div class="sez1-title">
 								<h3>PORTFOLIO</h3>
 							</div>
-							<div class="hr-black">
+								<div class="hr-resize">
+									<hr class="hr-black inline">
+									<div id="blue"class="glyphicon glyphicon-star inline"></div>
+									<hr class="hr-black inline">
+								</div>
 
-								<!-- INSERIRE LA HR BLACK ------------------------>
-
-							</div>
 						</div>
 					</div>
 
@@ -139,13 +142,13 @@
 					<!-- titolo seconda sezione -->
 					<div class="row row-no-gutters resizepage">
 						<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" >
-							<div class="sez1-title">
+							<div id="white"class="sez1-title ">
 								<h3>ABOUT</h3>
 							</div>
-							<div class="hr-white">
-
-								<!-- INSERIRE LA HR WHITE ------------------------>
-
+							<div class="hr-resize">
+								<hr class="hr-white inline">
+								<div id="white"class="glyphicon glyphicon-star inline"></div>
+								<hr class="hr-white inline">
 							</div>
 						</div>
 					</div>
@@ -170,7 +173,7 @@
 							<div class="button-box">
 								<button id="button-white"type="button" class="btn btn-default">
 									<span id="download"class="glyphicon glyphicon-download-alt"></span >
-									<span id="button-write">Download</span>
+									<span id="""button-write">Download</span>
 								</button>
 								<!-- INSERIRE IL BOTTONE DA BOOTSTRAP --------------------->
 
@@ -185,14 +188,55 @@
 					<!-- titolo terza sezione -->
 					<div class="row row-no-gutters resizepage">
 						<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" >
-
+							<div class="sez1-title">
+								<h3>CONTACT ME</h3>
+							</div>
+							<div class="hr-resize">
+								<hr class="hr-black inline">
+								<div id="blue"class="glyphicon glyphicon-star inline"></div>
+								<hr class="hr-black inline">
+							</div>
 						</div>
 					</div>
 
 					<!-- inserimento recapiti -->
 					<div class="row row-no-gutters resizepage">
 						<div class="col-xs-12" >
-
+							<div class="dati-cliente">
+								<form class="form-horizontal">
+									<div class="form-group">
+									 <label for="Name" class="col-sm-2 control-label">Name</label>
+									 <div class="col-sm-10">
+										 <input type="Name" class="form-control" id="name" placeholder="Name">
+									 </div>
+								 </div>
+								  <div class="form-group">
+								    <label for="inputEmail3" class="col-sm-2 control-label">Email Address</label>
+								    <div class="col-sm-10">
+								      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <label for="Phone" class="col-sm-2 control-label">Phone number</label>
+								    <div class="col-sm-10">
+								      <input type="Phone" class="form-control" id="number" placeholder="Number">
+								    </div>
+								  </div>
+									<div class="form-group">
+								    <label for="Message" class="col-sm-2 control-label">Message</label>
+								    <div class="col-sm-10">
+								      <input type="Message" class="form-control" id="message" placeholder="Message">
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <div class="col-sm-offset-2 col-sm-10">
+											<div class="send-box">
+												<button id="button-send"type="submit" class="btn btn-default">Send</button>
+											</div>
+								    </div>
+								  </div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</section>
