@@ -13,10 +13,10 @@
 }
 
 img {
-  max-width: 35%;
+  max-width: 40%;
   height: auto;
 }
-.background-sez3{
+.background-sez3, .jumbotron{
   background-color: #42FFC7;
 }
 .background-footer{
@@ -75,13 +75,13 @@ section, footer{
 ul#menu_box li {
   display: block;
   line-height: 60px;
-  padding: 0 15px ;
+  padding: 0 10px ;
   float: left;
     }
 ul#menu_box li a {
   color: white;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
 }
 /* proprietà jumbotron */
@@ -89,6 +89,57 @@ ul#menu_box li a {
   text-align: center;
   padding: 5px 2%;
 }
+
+.jumbo-title, .jumbo-subtitle{
+  color:white;
+}
+
+/* proprietà main */
+
+/* proprietà sezione 1 */
+.sez1-title{
+  color: WHITE;
+  font-weight: bold;
+  text-align: center;
+}
+#portfolio{
+  padding: 2% 2%;
+  border-radius: 10px;
+  background-color: blue;
+}
+.portfolioimg{
+  /* width: 160px;
+  height: auto; */
+  margin:  10px 10px ;
+  padding-right: 5%;
+  background-color: lightgreen;
+  text-align: center;
+  border-radius: 5px;
+
+}
+/* PROPRIETà SEZIONE 2 */
+.p-sez-about{
+  color: white;
+  padding: 10px 4%;
+}
+.button-box{
+  text-align: center;
+  margin: 10px 0 ;
+}
+#button-white{
+  border-color: #fff;
+  background-color: #42FFC7;
+
+}
+#download{
+  color:white;
+  margin-right: 8%;
+}
+#button-write{
+  color: white;
+  font-weight: bold;
+}
+
 /* PROPRIETA RESPONSIVE */
 
 /* XS SCREEN */
