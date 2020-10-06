@@ -16,6 +16,7 @@
 }
 hr{
   width: 20%;
+  vertical-align: middle;
   /* border: solid 1px #000; */
 }
 .hr-resize{
