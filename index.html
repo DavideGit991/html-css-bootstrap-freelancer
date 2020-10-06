@@ -6,6 +6,7 @@
 		 <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
 		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 		<!-- <link rel="stylesheet" href="css/lib/12bool.css"> -->
 		<link rel="stylesheet" href="css/main.css">
@@ -173,7 +174,7 @@
 							<div class="button-box">
 								<button id="button-white"type="button" class="btn btn-default">
 									<span id="download"class="glyphicon glyphicon-download-alt"></span >
-									<span id="""button-write">Download</span>
+									<span class="write">Download</span>
 								</button>
 								<!-- INSERIRE IL BOTTONE DA BOOTSTRAP --------------------->
 
@@ -205,26 +206,26 @@
 							<div class="dati-cliente">
 								<form class="form-horizontal">
 									<div class="form-group">
-									 <label for="Name" class="col-sm-2 control-label">Name</label>
-									 <div class="col-sm-10">
+									 <label for="Name" class="col-sm-1 control-label">Name</label>
+									 <div class="col-sm-10 col-sm-offset-1">
 										 <input type="Name" class="form-control" id="name" placeholder="Name">
 									 </div>
 								 </div>
 								  <div class="form-group">
-								    <label for="inputEmail3" class="col-sm-2 control-label">Email Address</label>
-								    <div class="col-sm-10">
+								    <label for="inputEmail3" class="col-sm-1 control-label">Email Address</label>
+								    <div class="col-sm-10 col-sm-offset-1">
 								      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
 								    </div>
 								  </div>
 								  <div class="form-group">
-								    <label for="Phone" class="col-sm-2 control-label">Phone number</label>
-								    <div class="col-sm-10">
+								    <label for="Phone" class="col-sm-1 control-label">Phone number</label>
+								    <div class="col-sm-10 col-sm-offset-1">
 								      <input type="Phone" class="form-control" id="number" placeholder="Number">
 								    </div>
 								  </div>
 									<div class="form-group">
-								    <label for="Message" class="col-sm-2 control-label">Message</label>
-								    <div class="col-sm-10">
+								    <label for="Message" class="col-sm-1 control-label">Message</label>
+								    <div class="col-sm-10 col-sm-offset-1">
 								      <input type="Message" class="form-control" id="message" placeholder="Message">
 								    </div>
 								  </div>
@@ -246,23 +247,55 @@
 			<footer >
 				<div class="row background-footer">
 
+					<!-- left footer -->
 					<div class="row row-no-gutters resizepage">
 						<div class="col-xs-12 col-md-4 " >
-
+							<div id="white"class="title-footer ">
+								LOCATION
+							</div>
+							<div id="white"class="subtitle-footer ">
+								2215 John Daniel Drive Clark,MO
+								<br>
+								54243
+							</div>
 						</div>
-						<div class="col-xs-12 col-md-4 " >
 
+						<!-- footer centrale  -->
+						<div class="col-xs-12 col-md-4 " >
+							<div id="white"class="title-footer ">
+								AROUND THE WEB
+							</div>
+							<div class="social-box">
+								<ul id="menu_box_social">
+                    <li><a href="#"> <i id="social" class="fab fa-facebook-square"></i> </a></li>
+                    <li><a href="#"> <i id="social"class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i id="social" class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i id="social" class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+							</div>
 						</div>
-						<div class="col-xs-12 col-md-4 " >
 
+						<!-- right footer -->
+						<div class="col-xs-12 col-md-4 " >
+							<div id="white"class="title-footer ">
+								ABOUT FREELANCER
+							</div>
+							<div id="white"class="subtitle-footer ">
+								Freelancer is a free to use, open source Bootstrap theme created
+								<br>
+								by <a id="link-boot"href="#">Start Boostrap</a>.
+							</div>
 						</div>
 					</div>
 				</div>
 
+				<!-- bottom footer -->
 				<div class="row background-bottom-footer">
 					<div class="row row-no-gutters resizepage">
 						<div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5" >
-
+							<div id="white"class="bottom-footer white">
+								Copyright &copy; Your Website 2019
+							</div>
 						</div>
 					</div>
 				</div>

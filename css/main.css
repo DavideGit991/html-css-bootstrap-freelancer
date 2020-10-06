@@ -63,7 +63,7 @@ section, footer{
 }
 /* regole di debug */
 [class*="col-"] {
-  min-height: 60px;
+  /* min-height: 60px; */
   /* background-color: lightgreen; */
   /* border: solid 1px  #000; */
   /* index: 100; */
@@ -156,19 +156,16 @@ ul#menu_box li a {
 #button-white{
   border-color: #fff;
   background-color: #42FFC7;
-
+  color: white;
 }
 #download{
   color:white;
   margin-right:5%;
 }
-#button-write{
-  color: white;
-  font-weight: bold;
-}
 
 /* proprietà sezione 3 */
 .dati-cliente{
+  font-size: 12px;
   margin: 15px auto;
 }
 #button-send{
@@ -181,6 +178,38 @@ ul#menu_box li a {
   padding-top: 5px;
 }
 
+/* proprietà footer */
+.title-footer, .subtitle-footer, .bottom-footer{
+  text-align: center;
+  margin: 20px auto;
+}
+.subtitle-footer{
+  font-size: 10px;
+}
+.social-box{
+  text-align: center;
+}
+ul#menu_box_social li {
+  ext-align: center;
+  /* font-family: sans-serif; */
+  display: inline-block;
+  padding: 0 4%;
+    }
+ul#menu_box_social li a {
+
+  /* font-size: 15px; */
+  text-decoration: none;
+}
+#social{
+  color: white;
+}
+#link-boot{
+  text-decoration: none;
+  color: #42FFC7;
+}
+.bottom-footer{
+  font-size: 8px;
+}
 /* PROPRIETA RESPONSIVE */
 
 /* XS SCREEN */
